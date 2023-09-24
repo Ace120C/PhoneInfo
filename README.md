@@ -1,5 +1,5 @@
 # PhoneInfo
-a terminal application coded with python to referance phones quickly
+a terminal application coded with python to Reference phone specs quickly
 
 To run the app on Linux run:
 ```
