@@ -1,6 +1,6 @@
 #! /usr/bin/python3
 brands = {
-    "Samsung": {
+    "SAMSUNG": {
         "S": {"CPU": "ARM Cortex-A8 Hummingbird", "GPU": "PowerVR SGX540", "RAM": "512MB"},
         "S2": {"CPU": "Samsung Exynos 4210", "GPU": "ARM Mali-400 MP4", "RAM": "1GB"},
         "S3": {"CPU": "Samsung Exynos 4412/Qualcomm Snapdragon S4 Plus", "GPU": "ARM Mali-400 MP4/ATI Adreno 225", "RAM": "1GB"},
@@ -17,11 +17,11 @@ brands = {
         "S21": {"CPU": "Samsung Exynos 2100/Qualcomm Snapdragon 888", "GPU": "ARM Mali-G78 MP14/ATI Adreno 660", "RAM": "8GB"},
         "S22": {"CPU": "Samsung Exynos 2200/Qualcomm Snapdragon 8 Gen 1", "GPU": "AMD Xclipse 920 (RDNA2)/ATI Adreno 730", "RAM": "8GB"},
         "S23": {"CPU": "Qualcomm Snapdragon 8 Gen 2 OC Edition", "GPU": "ATI Adreno 740", "RAM": "8GB"},
-        "Fold":{"CPU": "Qualcomm Snapdragon 855", "GPU": "ATI Adreno 640", "RAM": "12GB"},
-        "Z-fold 2":{"CPU": "Qualcomm Snapdragon 865", "GPU": "ATI Adreno 650", "RAM": "12GB"},
-        "Z-fold 3":{"CPU": "Qualcomm Snapdragon 888", "GPU": "ATI Adreno 660", "RAM": "12GB"},
-        "Z-fold 4":{"CPU": "Qualcomm Snapdragon 8+ Gen 1", "GPU": "ATI Adreno 730", "RAM": "12GB"},
-        "Z-fold 5":{"CPU": "Qualcomm Snapdragon 8 Gen 2 OC Edition", "GPU": "ATI Adreno 740", "RAM": "12GB"},
+        "FOLD":{"CPU": "Qualcomm Snapdragon 855", "GPU": "ATI Adreno 640", "RAM": "12GB"},
+        "Z-FOLD 2":{"CPU": "Qualcomm Snapdragon 865", "GPU": "ATI Adreno 650", "RAM": "12GB"},
+        "Z-FOLD 3":{"CPU": "Qualcomm Snapdragon 888", "GPU": "ATI Adreno 660", "RAM": "12GB"},
+        "Z-FOLD 4":{"CPU": "Qualcomm Snapdragon 8+ Gen 1", "GPU": "ATI Adreno 730", "RAM": "12GB"},
+        "Z-FOLD 5":{"CPU": "Qualcomm Snapdragon 8 Gen 2 OC Edition", "GPU": "ATI Adreno 740", "RAM": "12GB"},
         "A01":{"CPU": "Qualcomm Snapdragon 439", "GPU": "ATI Adreno 505", "RAM": "2GB"},
         "A10":{"CPU": "Samsung Exynos 7784", "GPU": "ARM Mali-G71", "RAM": "2/4GB"},
         "A20":{"CPU": "Samsung Exynos 7784", "GPU": "ARM Mali-G71", "RAM": "3GB"},
@@ -48,9 +48,8 @@ def get_phone_info(brand, model):
     else:
         return "Phone not found in the database."
 
-selected_brand = input("Enter a brand: ")
-selected_model = input("Enter a phone model: ")
-
+selected_brand = input("Enter a brand: ").upper()
+selected_model = input("Enter a phone model: ").upper()
 info = get_phone_info(selected_brand, selected_model)
 print(info)
 input("Press a Button to Quit... ")
