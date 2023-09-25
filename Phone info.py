@@ -37,7 +37,7 @@ brands = {
         "A02S":{"CPU": "Qualcomm Snapdragon 450", "GPU": "ATI Adreno 506", "RAM": "1/4GB"},
         "A03":{"CPU": "Unisoc T606", "GPU": "ARM Mali-G57 MP1", "RAM": "3/4GB"},
         "A03S":{"CPU": "Mediatek Helio P35", "GPU": "PowerVR GE8320", "RAM": "2/4GB"}, 
-        "A03 CORE"{"CPU": "Unisoc SC9863A", "GPU": "IMG8322", "RAM": "2GB"},
+        "A03 CORE":{"CPU": "Unisoc SC9863A", "GPU": "IMG8322", "RAM": "2GB"},
         "A11": {"CPU": "Qualcomm Snapdragon 450", "GPU": "ATI Adreno 506", "RAM": "6/4GB"},
         "A12": {"CPU": "Mediatek Helio P35", "GPU": "PowerVR GE8320", "RAM": "2/6GB"},
         "A13": {"CPU": "Samsung Exynos 850", "GPU": "ARM Mali-G52", "RAM": "3/6GB"},
