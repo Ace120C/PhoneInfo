@@ -44,11 +44,17 @@ brands = {
         "A13 5G": {"CPU": "Mediatek Dimensity 700", "GPU": "ARM Mali-G57 MC2", "RAM": "4/6GB"},
         "A14": {"CPU": "Mediatek Helio G80", "GPU": "ARM Mali-G52 MC2", "RAM": "4/6GB"},
         "A14 5G": {"CPU": "Samsung Exynos 1330", "GPU": "ARM Mali-G68 MP2", "RAM": "4/8GB"},
+        "A20S": {"CPU": "Qualcomm Snapdragon 450", "GPU": "ATI Adreno 506", "RAM": "2/4GB"},
+        "A20E": {"CPU": "Samsung Exynos 7884", "GPU": "ARM Mali-G71 MP2", "RAM": "3GB"},
+        "A21": {"CPU": "Mediatek Helio P35", "GPU": "PowerVR GE8320", "RAM": "3GB"},
+        "A21S": {"CPU": "Samsung Exynos 850", "GPU": "ARM Mali-G52", "RAM": "2/6GB"},
+        "A22": {"CPU": "Mediatek MT6769V", "GPU": "ARM Mali-G52 MC2", "RAM": "4/6GB"},
+        "A22 5G": {"CPU": "Mediatek Dimensity 700", "GPU": "ARM Mali-G57 MC2", "RAM": "4/8GB"},
+        "A23": {"CPU": "Qualcomm Snapdragon 680", "GPU": "ATI Adreno 610", "RAM": "4/8GB"},
+        "A23 5G": {"CPU": "Qualcomm Snapdragon 695 5G", "GPU": "ATI Adreno 619", "RAM": "4/8GB"},
+        "A24": {"CPU": "Mediatek Helio G99", "GPU": "ARM Mali-G57 MC2", "RAM": "4/8GB"},
     },
     "Apple": {
-        "i8": {"cpu": "A11 Bionic", "ram": "2GB"},
-        "iX": {"cpu": "A11 Bionic", "ram": "3GB"},
-        "iXS": {"cpu": "A12 Bionic", "ram": "4GB"},
     },
     # ... other brands and models
     }
