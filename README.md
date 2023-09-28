@@ -1,7 +1,14 @@
 # PhoneInfo
 a terminal application coded with python to Reference phone specs quickly
 
-To run the app on Linux run:
+# Linux
+
+Make the file executable with
+```
+chmod +x 'Phone info.py'
+'''
+
+Then run the app with:
 ```
 ./'Phone info.py'
 ```
