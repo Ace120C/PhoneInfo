@@ -10,7 +10,6 @@ chmod +x 'Phone info.py'
 
 Then run the app with:
 ```
-
 ./'Phone info.py'
 ```
 This app is still under devolopment, and is in early stages, so bugs may occur.
