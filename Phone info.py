@@ -53,6 +53,11 @@ brands = {
         "A23": {"CPU": "Qualcomm Snapdragon 680", "GPU": "ATI Adreno 610", "RAM": "4/8GB"},
         "A23 5G": {"CPU": "Qualcomm Snapdragon 695 5G", "GPU": "ATI Adreno 619", "RAM": "4/8GB"},
         "A24": {"CPU": "Mediatek Helio G99", "GPU": "ARM Mali-G57 MC2", "RAM": "4/8GB"},
+        "A31": {"CPU": "Mediatek Helio P65", "GPU": "ARM Mali-G52 MC2", "RAM": "4/8GB"},
+        "A32": {"CPU": "Mediatek MT6769V", "GPU": "ARM Mali-G52 MC2", "RAM": "4/8GB"},
+        "A32 5G": {"CPU": "Mediatek Dimensity 720", "GPU": "ARM Mali-G57 MC3", "RAM": "4/8GB"},
+        "A33 5G": {"CPU": "Samsung Exynos 1280", "GPU": "ARM Mali-G68", "RAM": "4/8GB"},
+        "A34": {"CPU": "Mediatek Dimensity 1080", "GPU": "ARM Mali-G68 MC4", "RAM": "6/8GB"},
     },
     "Apple": {
     },
