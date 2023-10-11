@@ -63,6 +63,8 @@ brands = {
         "A32 5G": {"CPU": "Mediatek Dimensity 720", "GPU": "ARM Mali-G57 MC3", "RAM": "4/8GB"},
         "A33 5G": {"CPU": "Samsung Exynos 1280", "GPU": "ARM Mali-G68", "RAM": "4/8GB"},
         "A34": {"CPU": "Mediatek Dimensity 1080", "GPU": "ARM Mali-G68 MC4", "RAM": "6/8GB"},
+        "A41": {"CPU": "Mediatek Helio P65", "GPU": "ARM Mali-G52 MC2", "RAM": "4/8GB"},
+        "A42 5G": {"CPU": "Qualcomm Snapdragon 750", "GPU": "ATI Adreno 619", "RAM": "4/8GB"},
     },
     "Apple": {
     },
