@@ -17,6 +17,8 @@ brands = {
         "S21": {"CPU": "Samsung Exynos 2100/Qualcomm Snapdragon 888", "GPU": "ARM Mali-G78 MP14/ATI Adreno 660", "RAM": "8GB"},
         "S22": {"CPU": "Samsung Exynos 2200/Qualcomm Snapdragon 8 Gen 1", "GPU": "AMD Xclipse 920 (RDNA2)/ATI Adreno 730", "RAM": "8GB"},
         "S23": {"CPU": "Qualcomm Snapdragon 8 Gen 2 OC Edition", "GPU": "ATI Adreno 740", "RAM": "8GB"},
+        "S21 FE": {"CPU": "Samsung Exynos 2100/Qualcomm Snapdragon 888", "GPU": "ARM Mali-G78/ATI Adreno 660", "RAM": "6/8GB"},
+        "S23 FE": {"CPU": "Samsung Exynos 2200/Qualcomm Snapdragon 8 Gen 1", "GPU":"AMD Xclipse 920 (RDNA2)/ATI Adreno 730", "RAM": "8GB"}
         "FOLD":{"CPU": "Qualcomm Snapdragon 855", "GPU": "ATI Adreno 640", "RAM": "12GB"},
         "Z-FOLD 2":{"CPU": "Qualcomm Snapdragon 865", "GPU": "ATI Adreno 650", "RAM": "12GB"},
         "Z-FOLD 3":{"CPU": "Qualcomm Snapdragon 888", "GPU": "ATI Adreno 660", "RAM": "12GB"},
