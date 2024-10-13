@@ -15,3 +15,6 @@ Then run the app with:
 This app is still under devolopment, and is in early stages, so bugs may occur.
 
 PS: only S series, Folds and some A series samsungs work, more to come soon
+
+# The app has been rewritten with go you can find that here:
+https://github.com/Ace120C/Phone-Finder
